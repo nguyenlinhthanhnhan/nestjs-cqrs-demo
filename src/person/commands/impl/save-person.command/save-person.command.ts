@@ -1,4 +1,4 @@
 export class SavePersonCommand {
-    name: string
-    age: number
+  name: string;
+  age: number;
 }

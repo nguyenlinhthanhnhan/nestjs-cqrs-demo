@@ -1,13 +1,13 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity({name: 'person'})
+@Entity({ name: 'person' })
 export class Person {
-    @PrimaryGeneratedColumn('increment', {name: 'id'})
-    id: number;
+  @PrimaryGeneratedColumn('increment', { name: 'id' })
+  id: number;
 
-    @Column({name: 'name'})
-    name: string;
+  @Column({ name: 'name' })
+  name: string;
 
-    @Column({name: 'age'})
-    age: number;
+  @Column({ name: 'age' })
+  age: number;
 }
